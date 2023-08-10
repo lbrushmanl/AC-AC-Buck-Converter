@@ -4,17 +4,16 @@ PCB of AC AC Buck
 
 Tests with 100R Load and a Duty cycle of 50%
 ~30VAC In
-![IMG_20230810_203523](https://github.com/lbrushmanl/AC-AC-Buck-Converter/assets/114579521/dc542afe-888b-4bb5-a74e-2135dcfdfbc3)
+![IMG_20230810_203523](https://github.com/lbrushmanl/AC-AC-Buck-Converter/assets/114579521/d36b5946-08b1-4afa-9d1f-abda63c64fc7)
 
 ~60VAC In
-![IMG_20230810_203535](https://github.com/lbrushmanl/AC-AC-Buck-Converter/assets/114579521/4ca313fe-9eea-4745-9d44-d90bba9fab7d)
+![IMG_20230810_203535](https://github.com/lbrushmanl/AC-AC-Buck-Converter/assets/114579521/03ac4cca-18ec-469e-b2c9-78f8f2172b45)
 
 ~90VAC In
-![IMG_20230810_203547](https://github.com/lbrushmanl/AC-AC-Buck-Converter/assets/114579521/741b9eba-0165-41af-a558-d183886d0a86)
+![IMG_20230810_203547](https://github.com/lbrushmanl/AC-AC-Buck-Converter/assets/114579521/e4f07dc8-5c64-4b16-92eb-4d6d8bd6f428)
 
 ~120VAC In
-![IMG_20230810_203600](https://github.com/lbrushmanl/AC-AC-Buck-Converter/assets/114579521/bed499cf-bfe9-4c68-b278-3742ad805aa0)
-
+![IMG_20230810_203600](https://github.com/lbrushmanl/AC-AC-Buck-Converter/assets/114579521/dd6307a3-5902-42b1-bade-45986aee2367)
 
 Old Veroboard Design
 Images of the setup
