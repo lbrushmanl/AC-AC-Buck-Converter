@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 1.6,
-          "width": 2.4
+          "drill": 3.6,
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -348,7 +348,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Net-Zero-Export-Controller.kicad_pro",
+    "filename": "AC-AC-Buck-Power-Board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -427,8 +427,16 @@
   },
   "sheets": [
     [
-      "37b2e0a3-ad7f-4c87-b216-bb83da811814",
+      "df553bb9-8c38-4161-a4d2-75c5f56c4ca7",
       ""
+    ],
+    [
+      "3efcaa1a-ab77-4985-a65d-66a9853b209f",
+      "Power_Stage"
+    ],
+    [
+      "24eec9d1-bed0-4069-9cb0-873df3a8000a",
+      "PWM_Generation"
     ]
   ],
   "text_variables": {}

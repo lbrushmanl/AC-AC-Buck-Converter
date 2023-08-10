@@ -130,42 +130,9 @@ void loop()
   realPower=emon1.realPower;
   Serial.println(realPower);
   powerPID.Compute();
-  // duty_cycle = 20; 
+
   pwm_set_chan_level(slice, channel, wrap * (100-duty_cycle) / 100);
 
   tik++;
 }
-
-
-// void pwm()
-// {
-//   // Get the devider for PWM_1 value derived from CPU
-//   uint32_t f_sys = clock_get_hz(clk_sys); // typically 125'000'000 Hz
-//   float divider = f_sys / PWM_FREQ;
-
-//   // Set for PWM_1
-//   pwm_set_clkdiv(pwmConfig.sliceOne, divider); // Here divider = 1
-//   pwmConfig.top1 =  (uint16_t)(PWM_FREQ/PWM_FREQ -1);  // PWM_FREQ = 400000 to get 200KHz in Phase Correct
-
-//   // A --> Non inverting, B --> Inverting
-//   pwm_set_output_polarity(pwmConfig.sliceOne, false, true);
-//   // Phase correct mode
-//   pwm_set_phase_correct(pwmConfig.sliceOne, true);
-
-//   // Set PWM Wrap
-//   pwm_set_wrap(pwmConfig.sliceOne, pwmConfig.top1);
-
-//   // Testing the PWM (NO IRQ)
-//   pwmConfig.dutyCh1 = (uint16_t)100;
-//   pwmConfig.dutyCh2 = (uint16_t)140;   // 40 added as offset for dead band
-
-//   // Test**************************************
-
-//   pwm_set_chan_level(pwmConfig.sliceOne, PWM_CHAN_A, (uint16_t)pwmConfig.dutyCh1);
-//   pwm_set_chan_level(pwmConfig.sliceOne, PWM_CHAN_B, (uint16_t)pwmConfig.dutyCh2);
-//   printf("CPU Clock: %d, Devider: %.2f, Top1: %d, Top2: %d, Duty1: %d, Duty2: %d\n",
-//           f_sys, divider, pwmConfig.top1, pwmConfig.top2,pwmConfig.dutyCh1, pwmConfig.dutyCh2);
-//   // Enable the PWM
-//   pwm_set_enabled(pwmConfig.sliceOne, true); // let's go!
-// }
 
