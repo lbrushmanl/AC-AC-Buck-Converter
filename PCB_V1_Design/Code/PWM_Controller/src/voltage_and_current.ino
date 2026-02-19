@@ -17,7 +17,7 @@
 #define PWM_C 11
 #define PWM_D 10
 
-#define PWM_FREQ 40e3
+#define PWM_FREQ 120e3
 #define SETPOINT 500
 #define VOLTAGE 26
 #define CURRENT 27
@@ -125,7 +125,7 @@ int main()
   adc_init();
   adc_gpio_init(VOLTAGE);
   adc_gpio_init(CURRENT);
-  adc_select_input(1);
+  adc_select_input(0);
 
   gpio_init(LED_PIN);
   gpio_set_dir(LED_PIN, GPIO_OUT);
@@ -137,8 +137,7 @@ int main()
   while(1)
   {
     uint16_t voltage = adc_read();
-
-
+    // Serial.print(voltage);
 
     if (voltage >= 2200) //2358 @ 20V
     {

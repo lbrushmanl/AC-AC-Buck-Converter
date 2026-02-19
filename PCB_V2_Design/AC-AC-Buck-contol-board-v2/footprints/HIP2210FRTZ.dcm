@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HIP2210FRTZ
+D The HIP2210 is a 100V, 3A source, 4A sink high-frequency half-bridge NMOS FET driver. The HIP2210 features a tri-level PWM input with programmable dead time. Its wide operating supply range of 6V to 18V and integrated high-side bootstrap diode supports driving the high-side and low-side NMOS in 100V half-bridge applications.This driver features strong 3A source, 4A sink drivers with very fast 15ns typical propagation delay and 2ns typical delay matching, making it optimal for high-frequency switching applic
+K
+F https://www.renesas.com/eu/en/www/doc/datasheet/hip2210-211.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "HIP2210FRTZ")(type "KiCad")(uri "${KIPRJMOD}/footprints/HIP2210FRTZ.kicad_sym")(options "")(descr ""))
+)

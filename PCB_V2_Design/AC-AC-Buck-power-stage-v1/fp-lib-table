@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Power-stage")(type "KiCad")(uri "/Users/Kei/Documents/Projects/AC-AC-Buck-Converter/v2-no-mcu/Power-stage")(options "")(descr ""))
+)
