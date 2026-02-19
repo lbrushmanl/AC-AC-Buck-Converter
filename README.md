@@ -1,4 +1,11 @@
 # AC-AC-Buck-Converter
+PCB of AC AC Buck V2
+<img width="1154" height="1764" alt="image" src="https://github.com/user-attachments/assets/60b3cf3c-2694-4924-af50-4c085a89e01d" />
+
+Test Main set to ~200V ouput set to ~85V load is 48R.
+Capture of load current (Dark blue) Mains (Yellow) Output voltage (Light blue) (Purple is from the AUX transfomer used by the control circuit).
+<img width="1024" height="600" alt="RigolDS28" src="https://github.com/user-attachments/assets/82d887af-f7f1-47d0-8974-05709bf0a4fe" />
+
 PCB of AC AC Buck
 ![IMG_20230810_232756](https://github.com/lbrushmanl/AC-AC-Buck-Converter/assets/114579521/ad34ecb8-780f-49bc-949b-9058dda8a0c5)
 
